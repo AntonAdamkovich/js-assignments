@@ -206,7 +206,7 @@ function getRectangleString(width, height) {
     let result = '';
     let row;
     let insides;
-    for (let i = 0; i < height; i++) {
+    for (let i = 0; i < height; i += 1) {
         row = '';
         switch (i) {
         case 0:
